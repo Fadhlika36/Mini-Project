@@ -1,0 +1,75 @@
+body {
+    font-family: 'Inter', sans-serif;
+    background-color: #E3E3E3;
+}
+
+.card {
+    background-color: white;
+    margin: auto;
+    width: 350px;
+    height: 500px;
+    border-radius: 5px;
+}
+
+.bars {
+    display: flex;
+    gap: 8px; 
+    align-items: center;
+    justify-content: center;
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-bottom: none;
+  }
+  
+.bar {
+    width: 70px; 
+    height: 3px; 
+    background-color: black;
+    border-radius: 25px;
+  }
+  
+.bar.dashed {
+    width: 70px; 
+    background-color: #EAEAEA;
+  }
+
+.upper {
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+    padding: 15px 25px;
+}
+.close-icon {
+   cursor: pointer;
+}
+
+.tpm36 {
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.title {
+    font-size: 64px;
+    padding-left: 25px;
+    font-weight: bold;
+    margin-bottom: 0;
+}
+
+.paragraph {
+    color: #615D5D;
+    font-size: 14px;
+    padding-left: 25px;
+    padding-right: 30px;
+    line-height: 200%;
+}
+
+.circle {
+    width: 100px;
+    padding-left: 25px;
+    padding-top: 25px;
+}
+
+.star {
+    width: 350px;
+}
